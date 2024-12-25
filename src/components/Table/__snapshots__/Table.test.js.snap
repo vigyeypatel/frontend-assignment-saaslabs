@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="tableContainer"
+  >
+    <table
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Date
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Category
+          </th>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          data-testid="table-row"
+        >
+          <td>
+            2023-12-25
+          </td>
+          <td>
+            $100
+          </td>
+          <td>
+            Groceries
+          </td>
+          <td>
+            Christmas shopping
+          </td>
+        </tr>
+        <tr
+          data-testid="table-row"
+        >
+          <td>
+            2023-12-24
+          </td>
+          <td>
+            $50
+          </td>
+          <td>
+            Dining
+          </td>
+          <td>
+            Dinner with friends
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
